@@ -1,6 +1,6 @@
 from tournament.teams import register_team
 
-from tournament.fixtures import generate_fixtures
+from tournament.fixtures import generate_fixtures, record_score
 
 teams = []
 
@@ -13,6 +13,9 @@ while len(teams) < 4:
     except ValueError as error:
         print(error)
 
-print(teams)
+#print(teams)
 
-generate_fixtures(teams)
+fixtures = generate_fixtures(teams)
+record_score(fixtures, 1, 3, 1)
+print(fixtures[0])
+print(fixtures)
