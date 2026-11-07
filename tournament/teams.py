@@ -18,3 +18,5 @@ def register_team(teams, name):
     }
 
     teams.append(team)
+    
+    return team
