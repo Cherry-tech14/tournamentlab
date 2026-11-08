@@ -1,0 +1,58 @@
+{
+    "teams": [
+        {
+            "id": "TM001",
+            "name": "Thunder"
+        },
+        {
+            "id": "TM002",
+            "name": "Phoenix"
+        },
+        {
+            "id": "TM003",
+            "name": "Lightning"
+        },
+        {
+            "id": "TM004",
+            "name": "Hammer"
+        }
+    ],
+    "fixtures": [
+        {
+            "home_team": "TM001",
+            "away_team": "TM002",
+            "home_score": 3,
+            "away_score": 1
+        },
+        {
+            "home_team": "TM001",
+            "away_team": "TM003",
+            "home_score": 2,
+            "away_score": 2
+        },
+        {
+            "home_team": "TM001",
+            "away_team": "TM004",
+            "home_score": 1,
+            "away_score": 0
+        },
+        {
+            "home_team": "TM002",
+            "away_team": "TM003",
+            "home_score": 2,
+            "away_score": 0
+        },
+        {
+            "home_team": "TM002",
+            "away_team": "TM004",
+            "home_score": 1,
+            "away_score": 1
+        },
+        {
+            "home_team": "TM003",
+            "away_team": "TM004",
+            "home_score": null,
+            "away_score": null
+        }
+    ]
+}
